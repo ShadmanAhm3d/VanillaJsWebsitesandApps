@@ -1,0 +1,143 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+.main{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, #9c27b0 , #8ecdff);
+
+}
+
+nav{
+    width: 80%;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    flex-basis: 20%;
+}
+
+.logo img{
+    width: 150px;
+
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.information{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+#circle{
+    width: 940px;
+    height: 943px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    border-radius: 50%;
+    transform: rotate(0deg);
+  
+}
+
+
+.feature img{
+    width: 70px
+}
+
+.feature{
+    position: absolute;
+    display: flex;
+    color: white;
+}
+
+.feature div{
+    margin-left: 30px;
+}
+
+
+
+.one{
+    top: 450px;
+    left: 739px;
+}
+
+.two{
+    top: 183px;
+    left: 268px;
+
+}
+
+.three{
+    bottom: 450px;
+    left: 25px;
+}
+
+.four{
+    bottom: 135px;
+    right: 350px;
+}
+
+.mobile{
+    width: 200px;
+    position: absolute;
+    top: 31%;
+    left: 37%;
+    z-index: 1;
+}
+
+
+.controls {
+    
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+  }
+  
+  .controls h3 {
+    margin: 15px 0;
+    color: white;
+  }
+  
+  #upbtn{
+      width: 15px;
+      cursor: pointer;
+  }
+  
+#downbtn{
+    width: 15px;
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+
+
+
